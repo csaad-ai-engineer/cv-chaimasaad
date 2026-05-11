@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chaima Zidi Saad — CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div class="cv-wrapper">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-top">
+      <div class="avatar">CZ</div>
+      <h1 class="name">Chaima<br><em>Zidi Saad</em></h1>
+      <p class="role">Founding AI Engineer<br>IA Générative · Santé Numérique</p>
+      <div class="tagline">PhD · 10+ ans recherche appliquée</div>
+    </div>
+
+    <div class="s-divider">
+      <div class="s-label">Contact</div>
+      <div class="contact-item"><span class="c-icon">✉</span><span>zidisaad.chaima@gmail.com</span></div>
+      <div class="contact-item"><span class="c-icon">☏</span><span>+33 7 58 94 95 91</span></div>
+      <div class="contact-item"><span class="c-icon">◎</span><span>France · Permis B</span></div>
+    </div>
+
+    <div class="s-divider">
+      <div class="s-label">IA Générative & LLM</div>
+      <div class="tag-cloud">
+        <span class="tag purple">RAG</span><span class="tag purple">LangChain</span>
+        <span class="tag purple">LangGraph</span><span class="tag purple">Agents LLM</span>
+        <span class="tag purple">Azure OpenAI</span><span class="tag purple">FAISS · Chroma</span>
+        <span class="tag purple">Neo4j</span><span class="tag purple">ReAct · Tool calling</span>
+      </div>
+    </div>
+
+    <div class="s-divider">
+      <div class="s-label">ML & MLOps</div>
+      <div class="skill-bars">
+        <div class="skill-row"><span>Python / PyTorch</span><div class="bar"><div class="bar-fill" style="width:95%"></div></div></div>
+        <div class="skill-row"><span>scikit-learn / XGBoost</span><div class="bar"><div class="bar-fill" style="width:88%"></div></div></div>
+        <div class="skill-row"><span>FastAPI / Flask</span><div class="bar"><div class="bar-fill" style="width:85%"></div></div></div>
+        <div class="skill-row"><span>Docker / CI-CD / Azure</span><div class="bar"><div class="bar-fill" style="width:80%"></div></div></div>
+        <div class="skill-row"><span>PostgreSQL / SQL</span><div class="bar"><div class="bar-fill" style="width:75%"></div></div></div>
+      </div>
+    </div>
+
+    <div class="s-divider">
+      <div class="s-label">Réseaux & Sécurité</div>
+      <div class="tag-cloud">
+        <span class="tag teal">4G / 5G</span><span class="tag teal">IoT</span>
+        <span class="tag teal">V2X</span><span class="tag teal">QKD</span>
+        <span class="tag teal">Cybersécurité</span><span class="tag teal">TCP/IP</span>
+      </div>
+    </div>
+
+    <div class="s-divider">
+      <div class="s-label">Langues</div>
+      <div class="lang-item"><span>Français</span><div class="dots"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span></div></div>
+      <div class="lang-item"><span>Anglais</span><div class="dots"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot off"></span></div></div>
+      <div class="lang-item"><span>Arabe</span><div class="dots"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span></div></div>
+    </div>
+
+    <div class="s-divider">
+      <div class="s-label">Certifications</div>
+      <div class="cert-item">Développeur IA/Data · Simplon 2026</div>
+      <div class="cert-item">Azure AZ-900 · AI-900 · Microsoft 2026</div>
+      <div class="cert-item">CCNA Routing & Switching · Cisco 2018</div>
+      <div class="cert-item">Qualifiée MCF sect. 27 & 61 · 2023</div>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+    <p class="profil-text">
+      Ingénieure-chercheuse en IA avec un <strong>PhD en informatique & réseaux</strong> et plus de <strong>10 ans</strong> d'expérience sur des systèmes connectés — réseaux contraints, IoT critique, communications sécurisées. Spécialisée en <strong>IA générative</strong> : systèmes RAG, agents LLM, APIs en production. Rigueur scientifique et sens du concret au service de projets à impact humain direct.
+    </p>
+
+    <div class="tabs">
+      <button class="tab active" onclick="showTab('parcours', this)">Parcours</button>
+      <button class="tab" onclick="showTab('projets', this)">Projets IA</button>
+      <button class="tab" onclick="showTab('publis', this)">Publications</button>
+    </div>
+
+    <!-- PARCOURS -->
+    <div id="parcours" class="tab-panel active">
+      <div class="timeline">
+
+        <div class="tl-item" data-type="formation">
+          <div class="tl-marker"></div>
+          <div class="tl-year">2025 – 2026</div>
+          <div class="tl-card">
+            <div class="tl-head"><div class="tl-title">Certification Prof. Développeur IA/Data</div><span class="badge formation">Formation</span></div>
+            <div class="tl-org">Simplon</div>
+            <div class="tl-tags"><span class="ctag">IA Générative</span><span class="ctag">RAG</span><span class="ctag">Agents LLM</span><span class="ctag">Azure</span></div>
+          </div>
+        </div>
+
+        <div class="tl-item" data-type="experience">
+          <div class="tl-marker"></div>
+          <div class="tl-year">Avr. 2023 – Août 2024</div>
+          <div class="tl-card">
+            <div class="tl-head"><div class="tl-title">Ingénieure R&D — Cloud & Systèmes Numériques</div><span class="badge experience">Expérience</span></div>
+            <div class="tl-org">IMT Nord Europe · Lille</div>
+            <ul class="tl-bullets">
+              <li>Projet PICADORS (SDIS 62) : architectures cloud scalables pour le pilotage des opérations de secours en temps réel</li>
+              <li>Pipelines de traitement de données hétérogènes (IoT, capteurs, 4G/5G/satellite)</li>
+              <li>Preuve de concept IoT/IA validée en conditions terrain</li>
+              <li>Enseignement architecture & sécurité des réseaux (30h, ingénieurs FISA)</li>
+            </ul>
+            <div class="tl-tags"><span class="ctag">Cloud</span><span class="ctag">IoT</span><span class="ctag">4G/5G</span><span class="ctag">Data pipelines</span></div>
+          </div>
+        </div>
+
+        <div class="tl-item" data-type="experience">
+          <div class="tl-marker"></div>
+          <div class="tl-year">Mars 2022 – Févr. 2023</div>
+          <div class="tl-card">
+            <div class="tl-head"><div class="tl-title">Ingénieure de Recherche — Cybersécurité & Véhicules Connectés</div><span class="badge experience">Expérience</span></div>
+            <div class="tl-org">LISIC, ULCO & INRIA Lille</div>
+            <ul class="tl-bullets">
+              <li>Frameworks de sécurité pour systèmes V2X (Vehicle-to-Everything)</li>
+              <li>Évaluation de solutions blockchain pour l'authentification et l'intégrité des données</li>
+              <li>Modèle d'audit pour la détection précoce de vulnérabilités protocolaires</li>
+              <li>Publication IEEE Access 2023</li>
+            </ul>
+            <div class="tl-tags"><span class="ctag">V2X</span><span class="ctag">Blockchain</span><span class="ctag">Cybersécurité</span></div>
+          </div>
+        </div>
+
+        <div class="tl-item" data-type="experience">
+          <div class="tl-marker"></div>
+          <div class="tl-year">Janv. 2020 – Sept. 2021</div>
+          <div class="tl-card">
+            <div class="tl-head"><div class="tl-title">Ingénieure R&D — Réseaux Quantiques & Sécurité</div><span class="badge experience">Expérience</span></div>
+            <div class="tl-org">LTCI Télécom Paris & SAMOVAR Télécom SudParis, IMT</div>
+            <ul class="tl-bullets">
+              <li>Simulation de réseaux hybrides intégrant la distribution de clés quantiques (QKD)</li>
+              <li>Évaluation des performances : latence, débit, taux d'erreur</li>
+              <li>Architectures sécurisées pour communications de nouvelle génération</li>
+              <li>Publication IEEE Photonics Technology Letters 2022</li>
+            </ul>
+            <div class="tl-tags"><span class="ctag">QKD</span><span class="ctag">Réseaux quantiques</span><span class="ctag">Simulation</span></div>
+          </div>
+        </div>
+
+        <div class="tl-item" data-type="formation">
+          <div class="tl-marker"></div>
+          <div class="tl-year">2014 – 2018</div>
+          <div class="tl-card">
+            <div class="tl-head"><div class="tl-title">Doctorat en Informatique et Réseaux</div><span class="badge formation">Formation</span></div>
+            <div class="tl-org">Université Paris Descartes — LIPADE, Sorbonne Paris Cité</div>
+            <ul class="tl-bullets">
+              <li>Energy Efficient Underwater Acoustic Sensor Networks</li>
+              <li>Modélisation de protocoles MAC et routage sous contraintes énergétiques</li>
+              <li>Plateforme de simulation + 6 publications IEEE (TMC, TNSM, IWCMC…)</li>
+            </ul>
+            <div class="tl-tags"><span class="ctag">PhD</span><span class="ctag">Protocoles MAC</span><span class="ctag">6 publications IEEE</span></div>
+          </div>
+        </div>
+
+        <div class="tl-item" data-type="experience">
+          <div class="tl-marker"></div>
+          <div class="tl-year">Oct. 2013 – Juil. 2019</div>
+          <div class="tl-card">
+            <div class="tl-head"><div class="tl-title">Enseignante-Chercheuse</div><span class="badge experience">Expérience</span></div>
+            <div class="tl-org">FCIT, King AbdelAziz University — Arabie Saoudite</div>
+            <ul class="tl-bullets">
+              <li>Enseignement en anglais : réseaux, programmation, systèmes (2 600h+)</li>
+              <li>Doctorante LIPADE en parallèle (2014–2018)</li>
+              <li>Formatrice CISCO CCNA Academy</li>
+            </ul>
+            <div class="tl-tags"><span class="ctag">Enseignement</span><span class="ctag">CISCO CCNA</span><span class="ctag">2 600h+</span></div>
+          </div>
+        </div>
+
+        <div class="tl-item" data-type="formation">
+          <div class="tl-marker"></div>
+          <div class="tl-year">2009 – 2011</div>
+          <div class="tl-card">
+            <div class="tl-head"><div class="tl-title">Master Recherche — Réseaux & Systèmes Multimédia</div><span class="badge formation">Formation</span></div>
+            <div class="tl-org">ENSI Tunisie & IRIT Toulouse</div>
+          </div>
+        </div>
+
+        <div class="tl-item" data-type="formation">
+          <div class="tl-marker"></div>
+          <div class="tl-year">2007 – 2010</div>
+          <div class="tl-card">
+            <div class="tl-head"><div class="tl-title">Diplôme d'ingénieur — Génie Informatique</div><span class="badge formation">Formation</span></div>
+            <div class="tl-org">ENSI Tunisie</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- PROJETS -->
+    <div id="projets" class="tab-panel">
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-num">01</div>
+          <div class="project-title">Agent conversationnel RAG</div>
+          <div class="project-period">2025 – 2026</div>
+          <p class="project-desc">Pipeline complet : ingestion, indexation, tool usage et intégration APIs externes. Architecture RAG de bout en bout.</p>
+          <div class="tl-tags"><span class="ctag">LangChain</span><span class="ctag">Chroma</span><span class="ctag">RAG</span></div>
+        </div>
+        <div class="project-card">
+          <div class="project-num">02</div>
+          <div class="project-title">Orchestration d'agents LLM multi-tâches</div>
+          <div class="project-period">2025 – 2026</div>
+          <p class="project-desc">Workflows multi-agents avec coordination et tool calling. Gestion de tâches parallèles et séquentielles.</p>
+          <div class="tl-tags"><span class="ctag">LangGraph</span><span class="ctag">Azure OpenAI</span><span class="ctag">Multi-agents</span></div>
+        </div>
+        <div class="project-card">
+          <div class="project-num">03</div>
+          <div class="project-title">Prédiction prix immobiliers</div>
+          <div class="project-period">2025 – 2026</div>
+          <p class="project-desc">Pipeline ML end-to-end : collecte de données réelles (France), XGBoost, déploiement API sur Railway, intégration Django.</p>
+          <div class="tl-tags"><span class="ctag">XGBoost</span><span class="ctag">FastAPI</span><span class="ctag">Django</span><span class="ctag">Railway</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PUBLICATIONS -->
+    <div id="publis" class="tab-panel">
+      <div class="pub-list">
+        <div class="pub-item">
+          <div class="pub-journal">IEEE Access · 2023</div>
+          <div class="pub-title">Review and Perspectives on the Audit of V2X Communications</div>
+          <div class="pub-authors">Zidi et al. · vol. 11, pp. 81623–81645</div>
+        </div>
+        <div class="pub-item">
+          <div class="pub-journal">IEEE Transactions on Mobile Computing · 2019</div>
+          <div class="pub-title">Collision Avoidance Energy Efficient Multi-Channel MAC Protocol for UW Sensor Networks</div>
+          <div class="pub-authors">Bouabdallah, Zidi et al. · vol. 18(10)</div>
+        </div>
+        <div class="pub-item">
+          <div class="pub-journal">IEEE Transactions on Network and Service Management · 2017</div>
+          <div class="pub-title">Joint Routing and Energy Management in UnderWater Acoustic Sensor Networks</div>
+          <div class="pub-authors">Bouabdallah, Zidi et al. · vol. 14(2)</div>
+        </div>
+        <div class="pub-item pub-more">
+          <div class="pub-journal">+ 3 publications supplémentaires</div>
+          <div class="pub-title">IEEE Photonics Technology Letters 2022 · IWCMC · autres conférences IEEE</div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
